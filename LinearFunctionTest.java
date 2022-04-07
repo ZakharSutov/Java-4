@@ -13,6 +13,6 @@ public class LinearFunctionTest {
     @Test(expected = IllegalArgumentException.class)
     public void getValue1() {
         LinearFunction linearFunction = new LinearFunction(1, 1, 1, 0);
-        linearFunction.getValue(0);
+        linearFunction.getValue(2);
     }
 }
